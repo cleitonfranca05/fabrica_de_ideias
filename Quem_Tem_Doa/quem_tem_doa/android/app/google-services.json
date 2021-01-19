@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "428039086235",
+    "project_id": "quem-tem-doa",
+    "storage_bucket": "quem-tem-doa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428039086235:android:a36a77ae67d1b51cc9e63e",
+        "android_client_info": {
+          "package_name": "com.example.quem_tem_doa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428039086235-c3agi89sk45tinrr5hsgj9varh64vbp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3xuZ1sspoEUhxKq5E39ebVwTbYAZq_EQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428039086235-c3agi89sk45tinrr5hsgj9varh64vbp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
