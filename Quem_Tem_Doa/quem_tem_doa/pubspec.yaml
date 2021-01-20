@@ -56,6 +56,11 @@ flutter:
   assets:
     - assets/images/login.png
     - assets/images/tinder.png
+    - assets/images/logoNetflix.png
+    - assets/images/netflix.png
+    - assets/images/avengers.png
+    - assets/images/vingadores.png
+    
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

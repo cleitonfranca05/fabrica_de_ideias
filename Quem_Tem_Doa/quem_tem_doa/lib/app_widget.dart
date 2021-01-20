@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:quem_tem_doa/app_controller.dart';
+import 'package:quem_tem_doa/app_neflix.dart';
 import 'package:quem_tem_doa/login_page.dart';
 
 import 'desafio.dart';
@@ -26,6 +27,7 @@ class AppWidget extends StatelessWidget {
             '/': (context) => LoginPage(),
             '/home': (context) => HomePage(),
             '/desafio': (context) => DesafioPage(),
+            '/netflix': (context) => NetflixPage(),
           },
         );
       },

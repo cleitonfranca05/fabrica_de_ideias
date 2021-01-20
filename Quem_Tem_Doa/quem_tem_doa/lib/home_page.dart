@@ -30,15 +30,23 @@ class HomePageState extends State<HomePage> {
               title: Text('Início'),
               subtitle: Text('Inicio do App'),
               onTap: () {
-                print('home');
+                Navigator.of(context).pushNamed('/home');;
               },
             ),
             ListTile(
-              leading: Icon(Icons.next_plan),
+              leading: Icon(Icons.favorite),
               title: Text('Desafio'),
               subtitle: Text('Desafio Proposto Flutterando'),
               onTap: () {
                 Navigator.of(context).pushNamed('/desafio');
+              },
+            ),
+            ListTile(
+              leading: Icon(Icons.tv),
+              title: Text('Netflix'),
+              subtitle: Text('App do Netflix'),
+              onTap: () {
+                Navigator.of(context).pushNamed('/netflix');
               },
             ),
             ListTile(
